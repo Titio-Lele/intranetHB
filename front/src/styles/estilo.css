@@ -1,0 +1,65 @@
+.card, .card-header, .form-control { border-radius: 0 !important; }
+
+#more{
+    display: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.material-icons {
+    width: 35px ;
+    overflow: hidden;
+    vertical-align: middle !important;
+}
+
+.material-icons.small {
+    font-size: 2rem;
+    width: 2rem;
+    overflow: hidden;
+    vertical-align: middle !important;
+}
+
+.classificado img {
+    width: 100%;
+    /* height: 340.72px; */
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+div .card{
+    margin-bottom: 25px !important;
+}
+
+div .card img{
+    text-align: center;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.bg-info {
+    background: rgba(0, 170, 200, 0.7) !important;
+}
+
+.legenda {
+    position: block;
+    background: rgba(130, 170, 200, 1);
+    color: white;
+    font-weight: bold;
+    height: 25px;
+}
+
+.modal-dialog {
+    width: 800px;
+}
+
+.topo {
+    height: 182px;
+    /* padding: 30px; */
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px 5px black;
+    background: url("../img/top-bar-background.jpg") no-repeat;
+    margin-bottom: 25px;
+}
